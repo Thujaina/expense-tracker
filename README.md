@@ -2,7 +2,7 @@
 
 A simple Python console app to track your daily expenses.
 
-## Features
+# Features
 - Add daily expenses
 - View all expenses with total amount
 - Saves data in a text file
