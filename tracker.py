@@ -1,5 +1,5 @@
 from datetime import datetime
-
+# function
 def add_expense(amount, description):
     with open("expenses.txt", "a") as file:
         date = datetime.now().strftime("%Y-%m-%d")
