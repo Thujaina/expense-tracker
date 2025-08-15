@@ -1,3 +1,4 @@
+#importing packages
 from datetime import datetime
 # function
 def add_expense(amount, description):
@@ -5,7 +6,7 @@ def add_expense(amount, description):
         date = datetime.now().strftime("%Y-%m-%d")
         file.write(f"{date},{amount},{description}\n")
     print("Expense added successfully.")
-
+# function 2
 def view_expenses():
     try:
         with open("expenses.txt", "r") as file:
